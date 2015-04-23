@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8"/>
+  <title>Intro to Programming</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="TOC">
+	<h1>Table of Contents</h1>
+        <ol>
+			<li><a href="#lesson-1.1"> The Basics of the WEB & HTML </a>
+			  <ul>
+				  <li><a href="#lesson-1.1.1"> How the Web Works </a></li>
+				  <li><a href="#lesson-1.1.2"> HTML is made up of </a></li>
+				  <li><a href="#lesson-1.1.3"> HTML Markup </a></li>
+				  <li><a href="#lesson-1.1.4"> HTML Attributes </a></li>
+			  </ul>
+		    </li>
+			<li class="TOC-lesson"><a href="#lesson-1.2"> Creating a Structured Document </a>
+				<ul>
+				  <li><a href="#lesson-1.2.1"> Web Developement </a></li>
+				  <li><a href="#lesson-1.2.2"> The "tree-like structure" of HTML </a></li>
+				  <li><a href="#lesson-1.2.3"> Boxes to HTML </a></li>
+				  <li><a href="#lesson-1.2.4"> The Tools Programmers use to Write Code </a></li>
+				</ul> 
+			</li>
+			<li class="TOC-lesson"><a href="#lesson-1.3"> Adding CSS Style to HTML Structure </a>
+				 <ul>  
+				  <li><a href="#lesson-1.3.1"> Understanding CSS & Adding Style </a></li>
+				  <li><a href="#lesson-1.3.2"> CSS Box Model </a></li>
+				  <li><a href="#lesson-1.3.3"> Coding Flowchart </a></li>
+				</ul>
+			</li>
+	    </ol>
+ </div> 
+ <h1> Intro to Computers </h1>
+ <div class="lesson">
+	<h2 id="lesson-1.1"> 1.1 The Basics of the WEB & HTML </h2>
+<div class="concept" id="lesson-1.1.1">
+<div class="concept-title">	
+		How the Web Works
+</div>
+<div class="concept-description">
+	<ul>
+		<li>The WEB: a collection of HTML documents</li>
+		<li>HTML: Hypertext Markup Language - the bases for almost all web pages; it is what glues everything together</li>
+		<li>URLs: Uniform Resource Locator</li>
+		<li>HTTP: Hypertext Transfer Protocil</li>
+		<li>Web Applications</li>
+	</ul>
+    <p>
+        The web is a bunch of computers that communicate with
+        each other. When a person goes to a web page like
+        www.google.com, their computer sends a <em>HTTP Request</em>
+        to a <em>server</em>. The server finds the appropriate
+        HTML document and sends it back to the user's computer where
+        a <em>web browser</em> interprets the page and displays it
+        on the user's screen.
+    </p>
+	</div>
+</div>
+<div class="concept" id="lesson-1.1.2">
+<div class="concept-title"> 
+		HTML is made up of
+</div>
+<div class="concept-description">
+	<ul>
+		<li>Text Content: what you see</li>
+		<li>Markup: what it looks like</li>
+		<li>References to other documents: like images &  videos </li>
+		<li>Links to other pages</li>
+	</ul>
+</div>
+</div>
+<div class="concept" id="lesson-1.1.3">
+<div class="concept-title">
+		HTML Markup
+</div>
+<div class="concept-description">
+	<p>
+		HTML documents are made of HTML <b>elements</b>. When
+    	writing HTML, we tell browsers the type of each element
+       	by using HTML <b>tags</b><br>
+    	<br>
+		Tag Outline:  (the opening tag)the content(the closing tag)<br>
+    	<br>
+	    The b tag adds <b>boldness</b> to the content of the tag<br>
+	    <br>
+	    The em tag adds emphasises (<em>italics</em>) to the content of the tag<br>
+    </p>
+</div>
+</div>
+<div class="concept" id="lesson-1.1.4">
+<div class="concept-title">
+		HTML Attributes
+	</div>
+<div class="concept-description">	
+    <p>
+		A tag can have multiple attributes - <br>(tag attr='value') content (/tag)<br>
+		<br>
+		Anchors are used for making links - <a href=”http://www.reddit.com”>Reddit</a> a link to www.reddit.com<br>
+		<br>
+		Image tags are used for including images <!-- <img src=”url’ alt= “text”> --> <br>
+		<br>
+		The <b><em> src </em></b> in an image tag is the url of the image to download<br>
+		<br>
+		<b><em> alt </em></b> is the text to dispaly if the image fails to open - required - broken request<br>
+		<br>
+		The image tag is a void tag as it has no content and therefore does not need a closing tag<br>
+		<br>
+		The <em> br </em> tag is a void tag used to create a line break <br>
+		<br>
+		The <em> p </em> tag is used to create a paragraph.<br>
+		<br>
+		HTML elements are either <b>inline</b> or <b>block</b>.
+        <br>
+		Block elements form an "invisible box" around the content inside of them.
+		<br>
+		Inline elements: a_b_br_em__img_span_strong<br>
+		<br>
+		Block elements: div_form_p<br>
+	</p>
+</div>
+</div>
+</div>
+<div class="lesson">
+	<h2 id="lesson-1.2"> 1.2 Creating a Structured Document </h2>
+<div class="concept" id="lesson-1.2.1">
+<div class="concept-title">
+		Web Developement
+</div>
+<div class="concept-description">
+					Three languages of Web Developement are <b>HTML</b>, <b>CSS</b>, & <b>JavaScript</b>.<br>
+			<ul>
+				<li>HTML files are like the structure of your house. Where are the walls placed, what room is your living room, what room is your kitchen, which room is your bedroom?</li>
+				<li>CSS files are the style of your house. What color is the carpeting, what decorations do you have up, what colors are the walls.</li>
+				<li>JavaScript files are your interactive components. Think of them as you garage door opener or your television remote. They are changing some element of your house.</li>
+			</ul>
+</div>
+</div>
+<div class="concept" id="lesson-1.2.2">
+<div class="concept-title">
+		The "tree-like structure" of HTML
+</div>
+<div class="concept-description">
+	<p>
+		A tree structure is conceptual, and appears in several forms. Computer Sciences use a data structure type tree structure.
+ </p>
+ <p>
+		A tree structure or tree diagram is a way of representing the hierarchical nature of a structure in a graphical form. It is named a "tree structure" because the classic representation resembles a tree, even though the chart is generally upside down compared to an actual tree, with the "root" at the top and the "leaves" at the bottom.
+	</p>
+	<p>
+        The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did her mother, and so on...
+    </p>
+    <p>
+        In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+    </p>
+    <p>
+        The nodes of every document are organized in a tree structure, called the DOM tree.
+    </p>
+    <p>
+        <b>DOM</b> - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). 
+    </p>
+</div>
+</div>
+<div class="concept" id="lesson-1.2.3">
+<div class="concept-title">
+		Boxes to HTML
+</div>
+<div class="concept-description">
+	<p>
+		When you read an HTML document as <em>text</em>, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested it's corresponding "box" is.<br>
+		<br>
+		The <b>div</b> tab is used to define boxes within a web page.<br>
+		<!-- <div class="title">My App</div> -->
+		<!-- <div class="app"> -->
+		<!-- <div class="screenshot">image</div> -->
+		<!-- <div class="screenshot">text</div> -->
+	</p>
+	</div>
+</div>
+<div class="concept" id="lesson-1.2.4">
+<div class="concept-title">
+		The Tools Programmers use to Write Code
+</div>
+<div class="concept-description">
+			A text editor is a program that helps you type text similar to document editors, such as Microsoft Word or Corel WordPerfect, but without all the extra formatting functions that document editors have.<br>
+      <br>
+			When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.<br>
+      <br>
+			Comments are lines of text that the computer ignores. They are just there so that programmers can leave notes for other people (or themselves) to read.
+				<ul>
+					<li>In HTML, code comments begin with <!-- and end with -->. Everything in between is ignored.</li>
+					<li>In CSS, code comments begin with /* and end with */.</li>
+				</ul>
+</div>
+</div>
+</div>
+<div class="lesson">
+<h2 id="lesson-1.3"> 1.3 Adding CSS Style to HTML Structure </h2>
+<div class="concept" id="lesson-1.3.1">
+<div class="concept-title">
+			Understanding CSS & Adding Style
+</div>
+<div class="concept-description">
+			Cascading Style Sheets (CSS) is code written to control the "style" of HTML elements.<br>
+        	<br>
+			The use of style sheets help in avoiding the repetition of rewritting the same code multiple times, which can lead to errors anytime changes are made.<br>
+        	<br>
+        	Style sheets eliminate the need to rewrite the same code over and over again and make future formatting or style changes of the Web pages easier to perform.<br>
+        	<br>
+			There are three methods to include CSS Styling in a web page.<br>
+				<ol>
+					<li>Method 1: Write the CSS in the top of your HTML document.</li>
+					<li>Method 2: Link your HTML to a separate CSS file</li>
+					<li>Method 3: Write your style inline with your HTML</li>
+				</ol>
+			Method 1 is good for very small projects.<br>
+        	<br>
+			Method 2 is best used for larger projects.<br>
+        	<br>
+			Method 3 leads to a lot of repeated code and is therefore a very bad ideal.<br>
+        	<br>
+			You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.<br>
+        	<br>
+			It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+			    <ul>
+			        <li>the default style of a browser (different browsers have slightly different styles)</li>
+					<li>stylesheet in a separate file (this is what you will be mostly using)</li>
+					<li>stylesheet inside HTML (this can be done for small projects but is not ideal)</li>
+					<li>inline style in an element (this can also be done but should be avoided)</li>
+				  </ul>
+			"Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect.<br>
+			<br>
+        	Browsers use default stylesheets to determine how to display HTML elements. Because these rules sometime differ between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as normali.css.<br>
+</div>
+</div>
+<div class="concept" id="lesson-1.3.2">
+<div class="concept-title">
+		CSS Box Model
+</div>
+<div class="concept-description">
+			All HTML elements can be considered as boxes. In CSS, the term “box model” is used when talking about design and layout.<br>
+				<br>
+			The CSS box model is essentially a box that wraps around HTML elements, and it consists of: margins, borders, padding, and the actual content.<br>
+					<ul>
+						<li>Margin - clears an area outside the border. The margin is transparent. {the spacing between the boxes on the web page}</li>
+						<li>Border – a border that goes around the padding and the content.</li>
+						<li>Padding - clears an area around the content. The margin is transparent.</li>
+						<li>Content: The content of the box, where text and images appear. {the nucleus protected by the other layers so the web site is more visually appealing.}</li>
+					</ul>
+			As described above, the box model allows us to add a border around elements, and to define space between elements.<br>
+</div>
+</div>
+<div class="concept" id="lesson-1.3.3">
+<div class="concept-title">
+		Coding Flowchart
+</div>
+<div class="concept-description">
+		<ol>
+			<li> Look for natural boxes </li>
+			<li> Look for repeated styles & semantic elements </li>
+			<li> Write your HTML </li>
+			<li> Apply Styles (from <em>BIGGEST</em> to <em>smallest</em>) </li>
+			<li> Fix Things </li>
+		</ol>
+	</div>
+</div>
+</div>
+</body>
+</html>
